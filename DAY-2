@@ -1,0 +1,21 @@
+NUCLEI COMMAND
+
+nuclei -l mtnbusinesslive.txt -t /home/ibrahim/nuclei-templates/cves/2022 
+
+waybackurls testphp.vulnweb.com | grep -a -i \=http | qsreplace 'http//evil.com' | while read host do;do curl -s -l $host -I|grep "evil.com" && echo -e "$host \033[0;31mVulnerable\n" ;done
+
+cat domains_list.txt | httpx -ports 80,443,8080,8443 -path /admin -mr "admin"
+
+
+
+
+DOMAIN TO IP
+
+cat sub.txt | dnsx -silent -a -resp-only
+
+PORT-SCANNING
+
+naabu -p - -list applelive.txt exclude-ports 80,443,8443,21,25,22 -o appleports.txt
+
+masscan -p1-65535 -iL ips.txt --max-rate 1800 -oG output.log
+
